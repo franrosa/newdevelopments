@@ -69,7 +69,7 @@
     column-gap: var(--wp--preset--spacing--4-x);
     color: var(--wp--preset--color--white);
 }
-.wp-block-group.site-footer {
+.wp-block-columns.site-footer {
     padding: var(--wp--preset--spacing--6-x) var(--wp--preset--spacing--3-x) var(--wp--preset--spacing--3-x);
     margin: 0;   
 }
