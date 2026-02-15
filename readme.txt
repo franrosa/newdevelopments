@@ -1,4 +1,4 @@
-=== Theme Name ===
+=== NewDevelopments ===
 Contributors: @franrosa
 Tested up to: 6.9
 Requires at least: 6.0
@@ -28,14 +28,14 @@ I created the first version of this theme in 2022 as a learning project, which w
 
 == Changelog ==
 
-= 1.0 =
+= 2.0 =
 
 * Reworked the whole theme code, updating theme.json to v3.
 * Changed the aggressively bright for calmer alternatives
 * Adjusted typography and spacing to be more consistent across pages
 * Moved the hyper-specific bits of my website to a child theme so this theme is more Universal
 
-= 0.1 =
+= 1.0 =
 
 * Added styles for heading blocks inside post content
 * Fixed theme.json to work properly in version 6.1.
@@ -45,12 +45,12 @@ I created the first version of this theme in 2022 as a learning project, which w
 
 == Upgrade Notice ==
 
-= 1.0 =
+= 2.0 =
 
 * Accessibility-ready.
 * Tested up to version 6.9.
 
-= 0.1 =
+= 1.0 =
 
 * Experimental, not production ready theme.
 
@@ -61,8 +61,8 @@ I created the first version of this theme in 2022 as a learning project, which w
 * iA Writer Typeface
   By Information Architects Inc. (based on ased on IBM Plex Typeface by IBM Corp.)
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
-
 * Public Sans
   By The Public Sans Project Authors (based on Libre Franklin by Impallari Type)
   As a work of the United States Government, the font software modifications made by GSA are not subject to copyright within the United States. Additionally, GSA waives copyright and related rights in its font software modifications worldwide through the CC0 1.0 Universal public domain dedication.
-  These typefaces are included in the assets folder, with their respective licenses.
+
+These typefaces are included in the assets folder, with their respective licenses.

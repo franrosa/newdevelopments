@@ -4,10 +4,10 @@
     <main class="wp-block-group main-content is-layout-constrained">
         <!-- wp:group { "align": "wide" } -->
             <div class="wp-block-group alignwide">
-                <!-- wp:group { "align": "wide", "className": "post-header" } -->
-                    <div class="wp-block-group post-header">
-                        <!-- wp:group { "className": "post-meta" } -->
-                            <div class="wp-block-group post-meta">
+                <!-- wp:group { "layout": { "type": "constrained" }, "className": "post-header"} -->
+                    <div class="wp-block-group is-layout-constrained post-header">
+                        <!-- wp:group { "layout": { "type": "flex" }, "align": "wide", "className": "post-meta" } -->
+                            <div class="wp-block-group is-layout-flex alignwide post-meta">
                                 <!-- wp:post-date { "format": "j F" } /-->
                                 <!-- wp:post-terms { "term": "category", "separator": ", " } /-->
                             </div>

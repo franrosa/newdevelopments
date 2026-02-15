@@ -7,7 +7,7 @@
                 <!-- wp:group { "layout": { "type": "constrained" }, "className": "post-header"} -->
                     <div class="wp-block-group is-layout-constrained post-header">
                         <!-- wp:heading { "level": 1, "align": "wide" } -->
-                            <h1 class="wp-block-heading alignwide">Page title</h1>
+                            <h1 class="wp-block-heading alignwide">Page title.</h1>
                         <!-- /wp:heading -->
                     </div>
                 <!-- /wp:group -->
@@ -17,7 +17,7 @@
             <div class="wp-block-query alignfull">
                 <!-- wp:post-template -->
                     <!-- wp:group { "align": "full", "layout": { "type": "constrained" }, "tagName": "article", "className": "post"} -->
-                        <article class="post">
+                        <article class="wp-block-group alignfull post">
                             <!-- wp:group { "align": "full", "layout": { "type": "constrained" } } -->
                                 <div class="wp-block-group alignfull">
                                     <!-- wp:group { "align": "wide", "layout": { "type": "constrained" } } -->
@@ -30,15 +30,11 @@
                                             <!-- /wp:group -->
                                             <!-- wp:post-title { "level": 2, "align": "wide", "isLink": true, "layout": { "inherit": true }, "className": "post-title" } /-->
                                             <!-- wp:post-excerpt /-->
-                                            <!-- wp:buttons { "className": "post-content-buttons" } -->
-                                                <div class="wp-block-buttons post-content-buttons">
-                                                    <!-- wp:button -->
-                                                        <div class="wp-block-button">
-                                                            <!-- wp:read-more { "content": "Read post", "className": "wp-block-button__link" } /-->
-                                                        </div>
-                                                    <!-- /wp:button -->
+                                            <!-- wp:group { "layout": { "type": "flex" }, "className": "post-content-buttons" } -->
+                                                <div class="wp-block-group is-layout-flex post-content-buttons">
+                                                    <!-- wp:read-more { "content": "Read post" } /-->
                                                 </div>
-                                            <!-- /wp:buttons -->
+                                            <!-- /wp:group -->
                                         </div>
                                     <!-- /wp:group -->
                                 </div>
@@ -46,6 +42,11 @@
                         </article>
                     <!-- /wp:group -->
                 <!-- /wp:post-template -->
+                <!-- wp:query-no-results -->
+                    <!-- wp:paragraph -->
+                        <p><?php esc_html_e( 'No posts available.', 'newdevelopments' ); ?></p>
+                    <!-- /wp:paragraph -->
+                <!-- /wp:query-no-results -->
             </div>
             <!-- wp:query-pagination { "layout": { "type": "constrained" } } -->
                 <!-- wp:query-pagination-previous /-->
