@@ -350,6 +350,9 @@
                         "bottom": "0",
                         "left": "0"
                     }
+                },
+                "typography": {
+                    "fontWeight": "300"
                 }
             },
             "core/paragraph": {

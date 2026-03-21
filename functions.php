@@ -8,6 +8,7 @@
         wp_register_style(
             'newdevelopments-style',
             get_template_directory_uri() . '/style.css',
+            array(),
             $version_string
         );
 
