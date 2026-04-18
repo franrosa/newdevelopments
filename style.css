@@ -1,13 +1,12 @@
 /**
  * Theme Name:        NewDevelopments
- * Theme URI:         https://franrosa.com/project/new-developments
+ * Theme URI:         https://franrosa.com/code-project/newdevelopments-block-theme/
  * Description:       Block theme for a site with a blog. Straightforward, accessible, without images but with visual impact. 
- * Version:           2.0.2
+ * Version:           2.0.3
  * Author:            Fran Rosa
  * Author URI:        https://franrosa.com
  * Tags:              blog, one-column, accessibility-ready, full-site-editing, full-width-template, block-styles
  * Text Domain:       newdevelopments
- * Domain Path:       /assets/lang
  * Tested up to:      6.9
  * Requires at least: 6.0
  * Requires PHP:      7.4
@@ -93,9 +92,9 @@ ul.wp-block-post-template li article.post .post-meta {
     column-gap: var(--wp--preset--spacing--3-x);
     color: var(--wp--preset--color--black);
 }
-ul.wp-block-post-template li article.post .post-title {
-    margin-top: var(--wp--preset--spacing--2-x) !important;
-    margin-bottom: var(--wp--preset--spacing--1-x) !important;
+body ul.wp-block-post-template li article.post .post-title {
+    margin-top: var(--wp--preset--spacing--2-x);
+    margin-bottom: var(--wp--preset--spacing--1-x);
     font-size: var(--wp--preset--font-size--l);
     font-weight: inherit;
     line-height: var(--wp--custom--line-height--l);
@@ -112,7 +111,7 @@ ul.wp-block-post-template li article.post .post-content-buttons {
     padding: var(--wp--preset--spacing--2-x) 0 0;
     column-gap: var(--wp--preset--spacing--3-x);
 }
-ul.wp-block-post-template li article.post .post-content-buttons a {
+body ul.wp-block-post-template li article.post .post-content-buttons a {
     background-color: inherit;
     color: inherit;
     font-size: inherit;
@@ -120,5 +119,5 @@ ul.wp-block-post-template li article.post .post-content-buttons a {
     line-height: inherit;
     padding: 0;
     margin: 0;
-    text-decoration: underline !important;
+    text-decoration: underline;
 }

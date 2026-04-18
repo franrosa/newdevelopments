@@ -1,5 +1,5 @@
 === NewDevelopments ===
-Contributors: @franrosa
+Contributors: franrosa
 Tested up to: 6.9
 Requires at least: 6.0
 Requires PHP: 7.4
@@ -63,6 +63,34 @@ I created the first version of this theme in 2022 as a learning project, which w
   This Font Software is licensed under the SIL Open Font License, Version 1.1.
 * Public Sans
   By The Public Sans Project Authors (based on Libre Franklin by Impallari Type)
-  As a work of the United States Government, the font software modifications made by GSA are not subject to copyright within the United States. Additionally, GSA waives copyright and related rights in its font software modifications worldwide through the CC0 1.0 Universal public domain dedication.
+  This Font Software is licensed under the SIL Open Font License, Version 1.1.
 
 These typefaces are included in the assets folder, with their respective licenses.
+
+== Copyright ==
+
+NewDevelopments WordPress Theme, Copyright 2026 Fran Rosa
+NewDevelopments is distributed under the terms of the GNU GPL
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program. If not, see http://www.gnu.org/licenses/.
+
+NewDevelopments WordPress Theme bundles the following third-party resources:
+
+iA Writer Typeface font, Copyright 2018 Information Architects Inc. (based on IBM Plex Typeface by IBM Corp.)
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Source: https://ia.net/
+
+Public Sans font, Copyright 2015 The Public Sans Project Authors (based on Libre Franklin by Impallari Type)
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+Source: https://public-sans.digital.gov/
